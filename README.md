@@ -21,7 +21,7 @@ Run the Flask server:
 
 ```
 cd server
-bash script/start "<your OPENAI_API_KEY>"
+bash script/start "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"
 ```
 
 ### Client
