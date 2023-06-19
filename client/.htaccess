@@ -1,5 +1,5 @@
 <IfModule mod_passenger.c>
-  PassengerAppType node
-  PassengerStartupFile app.js
+  PassengerAppType npm
+  PassengerStartupFile start
   PassengerAppRoot /home/kozepen/public_html/docgptio.com/client
 </IfModule>
