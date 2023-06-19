@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kozepen/public_html/docgptio.com
+    - /bin/cp -r $DEPLOYPATH/client $DEPLOYPATH/docgptio.com
+    - /bin/cp -r $DEPLOYPATH/.next $DEPLOYPATH/docgptio.com
