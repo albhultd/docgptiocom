@@ -1,6 +1,8 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
+  server: {
+    hostname: 'docgptio.com',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
